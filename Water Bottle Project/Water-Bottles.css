@@ -1,0 +1,121 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+nav, a{
+    color: seagreen;
+    text-align: center;
+    text-decoration: none;
+}
+
+body{
+    background-color: white;
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: black;
+    text-align: center;
+    font-size: 100px;
+}
+
+.hydro-stuff {
+    position: relative;
+    top: 350px;
+    right: 0px;
+}
+
+.main {
+    color: black;
+    text-align: left;
+}
+.nalgene {
+    text-align: left;
+    z-index: 2;
+}
+.nalgene-stuff h2 {
+    text-align: left;
+    z-index: 1;
+    border-style: solid;
+    border-color: pink;
+    background-color: pink;
+    width: 100px;
+}
+
+.nalgene-stuff h2:hover {
+    border-style: solid;
+    border-color: pink;
+    background-color: rgb(253, 233, 253);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nalgene-stuff h2:active {
+    background-color: white;
+    border-style: solid;
+    border-color: pink;
+}
+
+.nalgene-stuff h2:visited {
+    color: white;
+    background-color: blue;
+}
+
+
+td{
+    padding: 10px;
+    text-align: center;
+}
+
+.nut-button {
+    background-color: crimson;
+    border: 1px solid black;
+    border-radius: 50%;
+    min-height: 250px;
+    min-width: 250px;
+    position: absolute;
+    top: 500px;
+    left: 350px;
+    z-index: 0;
+    text-align: center;
+    box-shadow: 0px 15px maroon;
+}
+
+.nut-button p{
+    margin: 90px auto;
+    color: black;
+    font-size: 40px;
+}
+
+.nut-button p:active{
+    color: white;
+}
+
+.nut-button:hover {
+    cursor: pointer;
+    background-color: salmon;
+}
+
+.nut-button:active {
+    margin-top: 15px;
+    margin-right: 150px;
+    box-shadow: 0px 0px;
+    color: white;
+    transition-duration: .25s;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.color-block {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border: 2px solid red;
+    margin: 0px 5px;
+}
